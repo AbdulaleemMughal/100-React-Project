@@ -70,3 +70,12 @@ body {
 .option-text p {
   font-size: 17px;
 }
+
+.rotate {
+  transform: rotate(180deg);
+  transition: transform 0.1s ease;
+}
+
+span {
+  transition: transform 0.1s ease;
+}

@@ -52,7 +52,7 @@ export const SocialMediaSelector = () => {
           )}
           <p>{selectedMedia.name || "Social Media"}</p>
         </div>
-        <span>
+        <span className={showOptions ? "rotate" : ""}>
           <FaChevronDown />
         </span>
       </div>
