@@ -93,3 +93,9 @@
 .todo-item-actions span {
   cursor: pointer;
 }
+
+@media screen and (max-width: 650px) {
+  .todo-container {
+    width: 90%;
+  }
+}
